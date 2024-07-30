@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Kurumsal Proje 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+      aside > .list-group {
+        position: sticky;
+        top: 70px;
+      }
+    </style>
+  </head>
+  <body>
+ <!--  NAV  -->
+ <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" data-bs-theme="dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">YUPE</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#">Ana Sayfa</a>
+        <a class="nav-link" href="#">Hakkımızda</a>
+        <a class="nav-link" href="#">Ürünler</a>
+        <a class="nav-link" href="#">İletisim</a>
+      </div>
+    </div>
+  </div>
+</nav>
+ <!-- NAV END -->
+
+<div class="container-fluid" id="info"> 
+  <div class="row bg-dark text-light p-5 align-items-center">
+    <div class="col-sm-4">
+    <!-- Carousel Info -->
+    <div id="yupeInfo" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#yupeInfo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#yupeInfo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#yupeInfo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+             <h2>Firmamızın Vizyonu</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero debitis at dolorem ipsa voluptatem incidunt id nulla beatae quas placeat?</p>
+             <p>Fugiat natus optio velit assumenda corporis commodi et expedita exercitationem.</p>
+        </div>
+        <div class="carousel-item">
+            <h2>Firmamızın Misyonu</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero debitis at dolorem ipsa voluptatem incidunt id nulla beatae quas placeat?</p>
+              <p>Fugiat natus optio velit assumenda corporis commodi et expedita exercitationem, consectetur esse ipsum odio modi nemo sed cumque quidem perferendis!</p>
+        </div>
+        <div class="carousel-item">
+          <h2>Firmamızın Sundukları</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero debitis at dolorem ipsa voluptatem incidunt id nulla beatae quas placeat?</p>
+          <p>Fugiat natus optio velit assumenda corporis commodi et expedita exercitationem, consectetur esse ipsum odio modi nemo sed cumque quidem perferendis!</p>
+        </div>
+      </div>
+      
+    </div>
+    <!-- Carousel Info End -->
+    </div>
+    <div class="col-sm-8">
+      <!-- Carousel Img -->
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://picsum.photos/id/27/1200/350" class="d-block w-100 rounded" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://picsum.photos/id/13/1200/350" class="d-block w-100 rounded" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://picsum.photos/id/67/1200/350" class="d-block w-100 rounded" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://picsum.photos/id/47/1200/350" class="d-block w-100 rounded" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+       <!-- Carousel Img End -->
+    </div>
+  </div>
+</div>
+<!-- Container -->
+
+<div class="container" id="hero">
+  <!-- HERO Info -->
+  <div class="row justify-content-center text-center  rounded my-5 p-5 border shadow">
+    <div class="col-sm-8  ">
+      <h1 class="display-5">YUPE Sizi Geleceğe Taşır</h1>
+      <p class="lead">Gelecek <mark>Sizin Ellerinizde</mark> </p>
+      <p class="lead">Quidem quasi est, explicabo nemo recusandae labore repudiandae nostrum! Impedit!</p>
+      <p class="lead">Esse iure voluptatum saepe provident labore perspiciatis eligendi vel atque!</p>
+    </div>
+  </div>
+  <!-- HERO Info End -->
+
+  <!-- Cards -->
+  <div class="row" id="product">
+    <div class="col-sm-6">
+      <div class="card mb-3 shadow">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://picsum.photos/id/257/400/550
+            " class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Şehir</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-grid"><a href="#" class="btn w-100-block  btn-outline-primary">İncele</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card">
+            <img src="https://picsum.photos/id/23/400/240" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ürün 2</h5>
+              <a href="#" class="btn btn-outline-primary">İncele</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+                <img src="https://picsum.photos/id/25/400/240" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ürün 3</h5>
+                  <a href="#" class="btn btn-outline-primary">İncele</a>
+                </div>
+              </div>
+            </div>
+      </div>
+  <!-- Cards End -->
+   <!-- Aside ve Content  -->
+    <div class="row my-5">
+      <aside class="col-sm-3 ">
+        <!-- Aside Info -->
+        <div class="list-group shadow">
+          <a href="#info" class="list-group-item list-group-item-action">Bilgiler</a>
+          <a href="#product" class="list-group-item list-group-item-action">Ürünler</a>
+          <a href="#article" class="list-group-item list-group-item-action">Makaleler</a>
+          <a href="#images" class="list-group-item list-group-item-action">Görseller</a>
+        </div>
+      </aside>
+      <section class="col-sm-9" id="article">
+           <article class="card p-3 mb-3 shadow-sm">
+            <img src="https://picsum.photos/id/60/600/240" class="img-thumbnail w-100 mb-3" alt="">
+            <h2>Makale 1</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt in, ad qui rerum libero eum cum consequuntur quos neque quae.</p>
+            <p>Commodi quam illo vero fugit cupiditate et, eveniet quas vitae, magni adipisci necessitatibus iure quaerat. Dolorem possimus repellat provident ipsam.</p>
+            <p>Numquam dolorum optio explicabo at in dolorem odio dignissimos earum voluptas dolores illo, provident iusto aspernatur voluptatem, iure aliquid itaque!</p>
+           </article>
+           <article class="card p-3 mb-3 shadow-sm">
+            <img src="https://picsum.photos/id/61/600/240" class="img-thumbnail w-100 mb-3" alt="">
+            <h2>Makale 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto assumenda debitis aspernatur possimus sint soluta, quos totam corrupti sit cupiditate.</p>
+            <p>Autem at, laboriosam, doloremque sed, eum veritatis aut dolorem iste quae earum labore animi vero. Nobis commodi sed doloribus dolorum.</p>
+            <p>Eveniet impedit sapiente ea nostrum odio esse molestiae suscipit. Voluptas corporis quasi sapiente culpa minima aspernatur voluptatum officia similique possimus.</p>
+           </article>
+           <article class="card p-3 mb-3 shadow-sm">
+            <img src="https://picsum.photos/id/62/600/240" class="img-thumbnail w-100 mb-3" alt="">
+            <h2>Makale 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam optio saepe nemo adipisci explicabo beatae accusantium facilis distinctio non consequatur.</p>
+            <p>Aperiam at deleniti minima ducimus aspernatur, corrupti ex officia unde voluptatibus tenetur corporis ipsa debitis fugiat beatae ea quisquam eos.</p>
+            <p>Sint hic distinctio assumenda eaque exercitationem obcaecati asperiores incidunt, eos totam ab, laudantium mollitia vero illo voluptatem similique atque. Excepturi.</p>
+           </article>
+           <article class="card p-3 mb-3 shadow-sm">
+            <img src="https://picsum.photos/id/63/600/240" class="img-thumbnail w-100 mb-3" alt="">
+            <h2>Makale 4</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores hic laudantium facilis omnis cum, ipsam laborum aliquam consectetur maxime fugiat?</p>
+            <p>Sunt voluptas pariatur velit iste, quibusdam aut veniam iure nobis inventore at eum et, aliquam tempore corporis voluptatem facere odit.</p>
+            <p>Laboriosam deserunt quos provident nostrum modi laudantium, consequatur suscipit ipsum, labore nobis ad fugit. Provident nam aliquid veritatis quaerat. Alias!</p>
+           </article>
+           <article class="card p-3 mb-3 shadow-sm">
+            <img src="https://picsum.photos/id/44/600/240" class="img-thumbnail w-100 mb-3" alt="">
+            <h2>Makale 5</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non possimus perspiciatis dicta aut consequuntur tempora repellendus rerum minus sit nam.</p>
+            <p>Dolorem et minus fugiat laudantium sequi dolore magni, facere error consequatur pariatur earum voluptas neque ipsa modi, quam veritatis distinctio?</p>
+            <p>Vero, distinctio. Vel facere itaque sunt, obcaecati tempore quos eum accusantium molestias debitis beatae dignissimos amet ex placeat illum ad.</p>
+           </article>
+      </section>
+    </div>
+
+   <!-- Aside ve Content End -->
+
+</div>
+
+<!-- Container End  -->
+
+<!-- Container -->
+<!-- .container>.row>.col*15>img[src="https://picsum.photos/id/2$/300/240"].img-thumbnail.w-100 -->
+
+<div class="container-fluid my-5" id="images">
+  <div class="row">
+    <div class="col"><img src="https://picsum.photos/id/21/300/240" alt="" class="img-thumbnail w-100"></div>
+    <div class="col"><img src="https://picsum.photos/id/22/300/240" alt="" class="img-thumbnail w-100"></div>
+    <div class="col"><img src="https://picsum.photos/id/23/300/240" alt="" class="img-thumbnail w-100"></div>
+    <div class="col"><img src="https://picsum.photos/id/24/300/240" alt="" class="img-thumbnail w-100"></div>
+    <div class="col"><img src="https://picsum.photos/id/25/300/240" alt="" class="img-thumbnail w-100"></div>
+    <div class="col"><img src="https://picsum.photos/id/26/300/240" alt="" class="img-thumbnail w-100"></div>
+    <div class="col"><img src="https://picsum.photos/id/27/300/240" alt="" class="img-thumbnail w-100"></div>
+    <div class="col"><img src="https://picsum.photos/id/28/300/240" alt="" class="img-thumbnail w-100"></div>
+    <div class="col"><img src="https://picsum.photos/id/29/300/240" alt="" class="img-thumbnail w-100"></div>
+    <div class="col"><img src="https://picsum.photos/id/210/300/240" alt="" class="img-thumbnail w-100"></div>
+    <div class="col"><img src="https://picsum.photos/id/211/300/240" alt="" class="img-thumbnail w-100"></div>
+    <div class="col"><img src="https://picsum.photos/id/212/300/240" alt="" class="img-thumbnail w-100"></div>
+    <div class="col"><img src="https://picsum.photos/id/213/300/240" alt="" class="img-thumbnail w-100"></div>
+    <div class="col"><img src="https://picsum.photos/id/214/300/240" alt="" class="img-thumbnail w-100"></div>
+    <div class="col"><img src="https://picsum.photos/id/215/300/240" alt="" class="img-thumbnail w-100"></div>
+  </div>
+</div>
+ 
+
+<!-- Container end -->
+
+<footer class="container-fluid py-3 my-4 border-top">
+<ul class="nav justify-content-center border-bottom pb-3 mb-3">
+  <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Ana Sayfa</a></li>
+  <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Hakkımızda</a></li>
+  <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Ürünler</a></li>
+  <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">İletişim</a></li>
+</ul>
+<p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+</footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
